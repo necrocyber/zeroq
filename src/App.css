@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  padding : 20px;
+}
+
+.logo {
+  width : 13%;
+}
+
+.search {
+  background: #2b507f;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100%;
+
+}
+
+.group-search {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.blue {
+  background: #2b507f;
+  color : white;
+}
+
+.green {
+  background: #00b88b;
+}
+
+.border {
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.h-200 {
+  min-height : 80px;
+}
+
+.h-40 {
+  height : 40px !important;
+}
+
+.card-body {
+  padding: 0.5rem !important;
+  text-align: left !important;
+  color : white;
+}
+
+.item-icon {
+  float: left;
+  margin-left: 10px;
+}
+
+.item-icon span {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.buscador {
+  background: white !important;
+  color: #8b8b8b;
+  border-bottom-left-radius: 3px !important;
+  border-top-left-radius: 3px !important;
+  border-right: none;
+}
+
+.input-search {
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 30%;
+  }
+
+}
